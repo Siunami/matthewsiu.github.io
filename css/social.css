@@ -32,6 +32,7 @@ ul {
     padding:0;
     list-style: none;
 }*/
+
 .about-graphics{
   width:33%;
   height:auto;
@@ -64,8 +65,10 @@ ul {
   float:left;
   width:100%;
 }
+/* margin-left to adjust social icon positions in space */
 ul.social-icons {
     margin-top: 10px;
+    margin-left: -5%;
 }
 .social-icons li {
     vertical-align: top;
@@ -76,8 +79,10 @@ ul.social-icons {
     color: #fff;
     text-decoration: none;
 }
+
+/*Padding to change the spaceing between icons*/
 .fa-facebook {
-    padding:10px 14px;
+    padding:10px 10px;
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
@@ -89,7 +94,7 @@ ul.social-icons {
     background-color: #3d5b99;
 }
 .fa-twitter {
-    padding:10px 12px;
+    padding:10px 10px;
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
@@ -101,7 +106,7 @@ ul.social-icons {
     background-color: #00aced;
 }
 .fa-rss {
-    padding:10px 14px;
+    padding:10px 10px;
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
@@ -113,7 +118,7 @@ ul.social-icons {
     background-color: #eb8231;
 }
 .fa-linkedin {
-    padding:10px 14px;
+    padding:10px 10px;
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
@@ -125,7 +130,7 @@ ul.social-icons {
     background-color: #0073a4;
 }
 .fa-instagram {
-    padding:10px 14px;
+    padding:10px 10px;
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
