@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="A layout example that shows off a blog page with a list of posts.">
+    <title>Matthew Siu</title>
+
+<link rel="stylesheet" href="../css/social.css">
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+<!--[if lte IE 8]>
+
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-old-ie-min.css">
+
+<![endif]-->
+<!--[if gt IE 8]><!-->
+
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
+
+<!--<![endif]-->
+
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="css/layouts/blog-old-ie.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+        <link rel="stylesheet" href="../css/layouts/blog.css">
+    <!--<![endif]-->
+
+
+</head>
+<body>
+<div id="layout" class="pure-g">
+  <div class="sidebar pure-u-1 pure-u-md-1-4">
+    <div class="header">
+        <h1 class="brand-title">Matthew Siu</h1>
+        <h2 class="brand-tagline">Software Developer. Entreprenuer. Creative.</h2>
+
+        <nav class="nav">
+            <ul class="nav-list">
+              <!--
+                <li class="nav-item">
+                    <a class="pure-button" href="index.html">Blog</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="pure-button" href="projects.html">Projects</a>
+                </li>
+              -->
+                <li class="nav-item">
+                    <a class="pure-button" href="../index.html">Work</a>
+                </li>
+                <li class="nav-item">
+                    <a class="pure-button" href="../inspiration.html">Inspiration</a>
+                </li>
+                <li class="nav-item">
+                    <a class="pure-button" href="../about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="pure-button" href="../contact.html">Contact</a>
+                </li>
+
+            </ul>
+            <nav>
+              <div class="pure-menu pure-menu-horizontal">
+                  <ul class="social-icons">
+                    <li><a target="_blank" href="https://ca.linkedin.com/in/matthewwilsonsiu" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
+                    <li><a target="_blank" href="https://twitter.com/mattsiunami" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
+                    <li><a target="_blank" href="https://www.instagram.com/mattsiunami/" class="social-icon"> <i class="fa fa-instagram"></i></a></li>
+                  </ul>
+                </div>
+            </nav>
+        </nav>
+
+    </div>
+  </div>
+
+    	<div class="content pure-u-1 pure-u-md-3-4">
+        	<div>
+            <!-- A wrapper for all the blog posts -->
+	            <div class="posts">
+                <section class="post">
+                  <h1 class="content-subhead">Collaborative Drawing</h1>
+                  <div class="post-description">
+                      <h3>
+                        The application allows multiple users to connect to a website and draw together. Built using <a target="_blank" href="http://socket.io/">socket.io</a> and <a target="_blank" href="https://p5js.org/">p5.js</a>. P5.js is a working javascript version of processing.
+                      </h3>
+                      <p>Code can be found at:</p>
+                      <a target="_blank" href="https://github.com/Siunami/Processing/tree/master/nodeDrawing">Github</a>
+                  </div>
+									<h3>User Process</h3>
+                  <div class="post-description">
+										<p>Users logon at the same time</p>
+                    <img width="100%" height="auto" src="../images/drawingblank.png"></img>
+                  </div>
+									<div class="post-description">
+										<p>Each user has a unique color that identifies them.</p>
+										<img width="100%" height="auto" src="../images/drawingcollab.png"></img>
+									</div>
+									<div class="post-description">
+										<p>At any time, anyone connected can download the image.</p>
+										<img width="100%" height="auto" src="../images/drawingdownload.png"></img>
+									</div>
+                </section>
+	            </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+</body>
+</html>
